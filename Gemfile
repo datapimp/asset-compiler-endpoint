@@ -15,7 +15,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'code_sync', path: File.join(ENV['HOME'],'Projects','code_sync')
+gem 'code_sync', git: "https://github.com/datapimp/code_sync.git"
 gem 'jquery-rails'
 gem 'skim', '0.8.6'
 gem 'slim', '1.2.2'
