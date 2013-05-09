@@ -1,5 +1,7 @@
 AssetCompilerEndpoint::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
+  config.enable_code_sync_manager = false
+  config.enable_code_sync_server = true
 
   # Code is not reloaded between requests
   config.cache_classes = true
