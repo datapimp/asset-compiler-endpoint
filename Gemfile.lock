@@ -1,11 +1,14 @@
 GIT
   remote: https://github.com/datapimp/code_sync.git
-  revision: 2b56383e2a2433f59d6d625d3385e4da3a9fcfd5
+  revision: 99ce24dfda54b2adc57c62081be9f8a36a6ebae7
   specs:
-    code_sync (0.5.0)
+    code_sync (0.6.0)
       faye
       listen
+      pry
       rb-fsevent (~> 0.9)
+      skim
+      slim
       sprockets
       thin
       thor
@@ -72,9 +75,9 @@ GEM
       faye-websocket (>= 0.4.0)
       rack (>= 1.0.0)
       yajl-ruby (>= 1.0.0)
-    faye-websocket (0.5.0)
+    faye-websocket (0.6.1)
       eventmachine (>= 0.12.0)
-      websocket-driver
+      websocket-driver (>= 0.2.0)
     ffi (1.8.1)
     hike (1.2.2)
     http_parser.rb (0.5.3)
@@ -84,7 +87,7 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.7.7)
-    listen (1.0.3)
+    listen (1.1.1)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
@@ -168,7 +171,7 @@ GEM
     uglifier (2.1.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
-    websocket-driver (0.1.0)
+    websocket-driver (0.2.0)
     yajl-ruby (1.1.0)
 
 PLATFORMS
