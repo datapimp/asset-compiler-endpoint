@@ -4,7 +4,7 @@ gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-gem 'pg'
+gem 'sqlite3'
 
 
 # Gems used only for assets and not required
@@ -16,6 +16,8 @@ group :assets do
 end
 
 gem 'code_sync', git: "https://github.com/datapimp/code_sync.git"
+#gem "code_sync", path: File.join(ENV['HOME'],'Projects','code_sync')
+
 gem 'jquery-rails'
 gem 'skim', '0.8.6'
 gem 'slim', '1.2.2'

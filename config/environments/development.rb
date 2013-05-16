@@ -1,6 +1,7 @@
 AssetCompilerEndpoint::Application.configure do
   config.enable_code_sync_manager = true
   config.enable_code_sync_server = true
+  config.forbid_code_sync_save = true
 
   # Settings specified here will take precedence over those in config/application.rb
 
